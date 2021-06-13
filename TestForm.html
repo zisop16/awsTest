@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="FormBorder">
+    <div id="Form">
+      <form action="https://bre4986s3j.execute-api.us-east-2.amazonaws.com/StorageStage/storage" method="POST">
+        <div id="Inputs">
+
+            <label for="Name">First name:</label><br>
+            <input type="text" id="NameInput" name="Name" value="John"><br>
+            <label for="Age">Age:</label><br>
+            <input type="text" id="AgeInput" name="Age" value="Doe"><br><br>
+
+        </div>
+        <input type="submit" id= "SubmitButton" value="Submit" onclick="submitForm();">
+        </form>
+    </div>
+</div>
+<div id="Result"></div>
+
+
+<script src="FormScript.js"></script>
+<link rel="stylesheet" href="FormStyles.css">
+</body>
+</html>
