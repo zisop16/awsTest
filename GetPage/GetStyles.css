@@ -1,9 +1,19 @@
 .FormLabel {
     color: magenta;
-    font-size: 200%;
+    font-size: 120%;
 }
 .FormInput {
-
+}
+#ResultBorder {
+  border-style: solid;
+  border-color: lightgrey;
+  display: none;
+}
+#Result {
+  padding: 20px;
+}
+#NotButton {
+  padding-bottom: 20px;
 }
 #Form {
     padding: 20px;
@@ -12,14 +22,12 @@
     border-style: solid;
     border-color: grey;
 }
-#Inputs {
-    padding-bottom: 20px;
-}
-#SubmitButton {
+#GetButton {
     background-color: aqua;
     border-color: aqua;
+    padding: 5px;
 }
-#SubmitButton:hover {
+#GetButton:hover {
     background-color: blue;
     border-color: blue;
     color: lightgrey;

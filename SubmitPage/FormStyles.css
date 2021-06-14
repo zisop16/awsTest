@@ -1,0 +1,27 @@
+.FormLabel {
+    color: magenta;
+    font-size: 120%;
+}
+.FormInput {
+
+}
+#NotButton {
+  padding-bottom: 20px;
+}
+#Form {
+    padding: 20px;
+}
+#FormBorder {
+    border-style: solid;
+    border-color: grey;
+}
+#SubmitButton {
+    background-color: aqua;
+    border-color: aqua;
+    padding: 5px;
+}
+#SubmitButton:hover {
+    background-color: blue;
+    border-color: blue;
+    color: lightgrey;
+}
